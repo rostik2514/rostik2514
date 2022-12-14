@@ -1,0 +1,134 @@
+/* Wrapper get letters */
+.w_tasks h1{
+    text-align: center;
+}
+.wrapper {
+    padding: 150px 0px;
+}
+.w_tasks .lab1 {
+    margin-bottom: 50px;
+}
+
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content {
+    background-color: #fff;
+    color: #000;
+    width: 800px;
+    height: 400px;
+    padding: 30px;
+    position: relative;
+}
+.popup_title {
+    font-size: 40px;
+    padding: 50px;
+}
+.line_in_top {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 798px;
+    height: 22px;
+    border: 3px solid #000;
+    background-color: darkgray;
+}
+.popup_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 20px;
+    border: 3px solid #000;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    transition: background .1s linear,
+    color .1s linear;
+}
+.popup_close:hover, .popup_close:active {
+    background: red;
+    color: #fff;
+}
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.popup-link {
+    display: block;
+    margin: 50px auto 0;
+    text-align: center;
+    width: 100px;
+    padding: 8px 30px;
+    border: 3px solid black;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background .1s linear,
+    color .1s linear;
+    text-decoration: none;
+    color: black;
+}
+.popup-link:hover, .popup-link:active {
+    background: black;
+    color: #fce38a;
+}
+.popup_text h1 {
+    text-align: center;
+}
+.popup_text_content {
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+}
+.popup_text #btnFile{
+    display: none;  
+}
+.popup_text a {
+    display: block;
+    margin: 50px auto 0;
+    text-align: center;
+    width: 150px;
+    padding: 8px 30px;
+    border: 3px solid black;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background .1s linear,
+    color .1s linear;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+}
+.popup_text a:hover, .popup_text a:active {
+    background: black;
+    color: #fce38a;
+}
+.popup_text nobr {
+    font-size: 32px;
+    font-weight: bold;
+}

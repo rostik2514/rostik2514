@@ -1,0 +1,9 @@
+/* Wrapper about */
+.intro_info {
+    width: 600px;
+    margin-top: 100px;
+    text-align: center;
+    margin: 120px auto 0;
+    font-size: 30px;
+    font-weight: 700;
+}

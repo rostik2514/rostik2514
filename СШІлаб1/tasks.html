@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>СШІ лаб1</title>
+    <link rel="stylesheet" href="assets/css/indexStyle.css">
+    <link rel="stylesheet" href="assets/css/tasksStyle.css">
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="menu">
+            <div class="logo"><a href="index.html">Yavorskiy</a></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="tasks.html">tasks</a></li>
+                    <li><a href="about.html">about</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper w_tasks">
+        <h1>Лабораторна №1</h1>
+        <a href="#popup" class="popup-link lab1">Розгорнути</a>
+        <h1>Лабораторна №2</h1>
+        <a href="#popup2" class="popup-link">Розгорнути</a>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row1">
+                <h3>Help</h3>
+                 <ul>
+                    <li><a href="#">How to use this web site?</a></li>
+                    <li><a href="#">How to get letters?</a></li>
+                    <li><a href="#">How to connect whis us?</a></li>
+                     
+                 </ul>
+            </div>
+            <div class="row2">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="row3">
+                <h3>Yavosrkiy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime corrupti id sed incidunt voluptatibus sapiente debitis temporibus? Hic, aliquam voluptate.</p>
+            </div>
+            <div class="cla">
+                <a class="circle1 c" href=""><div class="let">A</div></a>
+                <a class="circle2 c" href=""><div class="let">B</div></a>
+                <a class="circle3 c" href=""><div class="let">C</div></a>
+                <a class="circle4 c" href=""><div class="let">D</div></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="popup" class="popup">
+        <a href="#header" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <div class="line_in_top"></div>
+                <a href="#header" class="popup_close">X</a>
+                <div class="popup_title"></div>
+                <div class="popup_text">
+                    <h1>Виберіть файл</h1>
+
+                    <input type="file" id="btnFile" onchange=readFile(this)>
+                    <a href="javascript:document.getElementById('btnFile').click()">Вибрати файл</a>
+                    
+                    <nobr>Результат: </nobr>
+                    <nobr id="popup_text_input"></nobr>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <a href="#header" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <div class="line_in_top"></div>
+                <a href="#header" class="popup_close">X</a>
+                <div class="popup_title"></div>
+                <div class="popup_text">
+                    <h1>Виберіть файл</h1>
+
+                    <input type="file" id="btnFile" onchange=readFile(this)>
+                    <a href="javascript:document.getElementById('btnFile').click()">Вибрати файл</a>
+                    
+                    <nobr>Результат: </nobr>
+                    <nobr id="popup_text_input"></nobr>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
